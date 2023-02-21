@@ -1,3 +1,4 @@
+
 # AngularLibrary
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.0.
@@ -25,3 +26,22 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+# Publish AngularLibrary
+
+Sing up at npmjs.com
+
+email, user, pwd are required, Email has to be verify wil link
+
+# Build AngularLibrary
+
+Angular app or workspace do angular library build
+
+ng build ng-logger (pacakge.json at library ngs-logger-gn) to avoid naming convention
+
+go to workspace->dist->library
+
+cmd:>npm publish
+username : npmjs username
+password: ****
+email public: mandate to get OTP to publish
