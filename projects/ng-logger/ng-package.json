@@ -1,7 +1,10 @@
+
 {
   "$schema": "../../node_modules/ng-packagr/ng-package.schema.json",
   "dest": "../../dist/ng-logger",
   "lib": {
     "entryFile": "src/public-api.ts"
-  }
+  },
+  "allowedNonPeerDependencies":["@angular/material","@schematics/angular","@angular/cdk"]
+ 
 }

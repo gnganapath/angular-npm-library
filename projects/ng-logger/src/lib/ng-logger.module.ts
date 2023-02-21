@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { NgLoggerComponent } from './ng-logger.component';
-
+import { MaterialCoreModule } from './core/material.module';
 
 
 @NgModule({
@@ -8,9 +8,11 @@ import { NgLoggerComponent } from './ng-logger.component';
     NgLoggerComponent
   ],
   imports: [
+    MaterialCoreModule
   ],
   exports: [
-    NgLoggerComponent
+    NgLoggerComponent,
+    MaterialCoreModule
   ]
 })
 export class NgLoggerModule { }

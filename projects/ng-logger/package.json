@@ -6,6 +6,9 @@
     "@angular/core": "^15.0.0"
   },
   "dependencies": {
+    "@angular/cdk": "^15.1.5",
+    "@angular/material": "^15.1.5",
+    "@schematics/angular": "^15.1.6",
     "tslib": "^2.3.0"
   }
 }

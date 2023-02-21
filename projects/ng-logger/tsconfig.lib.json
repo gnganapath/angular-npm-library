@@ -8,6 +8,7 @@
     "inlineSources": true,
     "types": []
   },
+  "experiementalDecorators":true,
   "exclude": [
     "**/*.spec.ts"
   ]
