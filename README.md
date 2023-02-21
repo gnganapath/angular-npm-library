@@ -51,4 +51,24 @@ https://www.npmjs.com/package/ngs-logger-gn
 # Create AngularLibrary from existing angular project
 Assumtion : ng new Angular-App (created working with sample boiler plate code)
 
-ng g library 
+ng g library ngx-logger-matui
+
+It create angular-app-> project -> ngx-logger-mat 
+
+Src
+src/lib
+ng-packagr.json
+package.json
+...
+..
+
+to add dependent npm libraries
+ go to angular-app->project->src->lib
+
+ npm i @material-ui, ....
+
+ then add it ng-package export ,
+
+ components, service, pipes, models we can use it.
+
+
