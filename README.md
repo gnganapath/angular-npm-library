@@ -31,7 +31,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 Sing up at npmjs.com
 
-email, user, pwd are required, Email has to be verify wil link
+email, user, pwd are required, Email has to be verify with link
 
 # Build AngularLibrary
 
@@ -45,3 +45,10 @@ cmd:>npm publish
 username : npmjs username
 password: ****
 email public: mandate to get OTP to publish
+#
+https://www.npmjs.com/package/ngs-logger-gn
+
+# Create AngularLibrary from existing angular project
+Assumtion : ng new Angular-App (created working with sample boiler plate code)
+
+ng g library 
